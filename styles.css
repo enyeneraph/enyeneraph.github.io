@@ -376,6 +376,10 @@ footer p {
           align-items: flex-start;
      }
 
+     .site-title {
+          font-size: 38px;
+     }
+     
      .image+div p {
           width: 100%;
           text-align: left;
