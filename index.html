@@ -1,125 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name - Personal Website</title>
-    <style>
-        /* Modern, clean styling */
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-            line-height: 1.6;
-            color: #333;
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-
-        header {
-            text-align: center;
-            padding: 40px 0;
-        }
-
-        nav {
-            margin: 20px 0;
-            padding: 10px;
-            background: #f8f9fa;
-            border-radius: 5px;
-        }
-
-        nav ul {
-            list-style: none;
-            display: flex;
-            justify-content: center;
-            gap: 20px;
-        }
-
-        nav a {
-            text-decoration: none;
-            color: #495057;
-            font-weight: 500;
-        }
-
-        nav a:hover {
-            color: #228be6;
-        }
-
-        section {
-            margin: 40px 0;
-            padding: 20px;
-            background: white;
-            border-radius: 10px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-        }
-
-        .projects {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 20px;
-        }
-
-        .project-card {
-            padding: 20px;
-            background: #f8f9fa;
-            border-radius: 5px;
-        }
-
-        footer {
-            text-align: center;
-            padding: 20px;
-            margin-top: 40px;
-            border-top: 1px solid #dee2e6;
-        }
-    </style>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Enyene Rudolf</title>
+     <link rel="stylesheet" href="styles.css">
+     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 </head>
+
 <body>
-    <header>
-        <h1>Your Name</h1>
-        <p>Web Developer | Designer | Creative Thinker</p>
-    </header>
-
-    <nav>
-        <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
-
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Hello! I'm a passionate developer interested in creating meaningful digital experiences. 
-           [Add your personal introduction and background here]</p>
-    </section>
-
-    <section id="projects">
-        <h2>Projects</h2>
-        <div class="projects">
-            <div class="project-card">
-                <h3>Project 1</h3>
-                <p>Description of your first project</p>
-            </div>
-            <div class="project-card">
-                <h3>Project 2</h3>
-                <p>Description of your second project</p>
-            </div>
-        </div>
-    </section>
-
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Email: your.email@example.com</p>
-        <p>GitHub: <a href="https://github.com/yourusername">github.com/yourusername</a></p>
-    </section>
-
-    <footer>
-        <p>© 2024 Your Name. All rights reserved.</p>
-    </footer>
+     <div class="head">
+          <header>
+               <a class="site-title" href="">Enyene Rudolf</a>
+               <p class="nav"><a href="pages/about.html">About Me<img class="fa arrow-right"
+                              src="images/arrow-right-solid.svg" alt=""></a></p>
+          </header>
+          <div class="line"></div>
+          <div id="area">
+               <div class="content notes">
+                    <h1>My Notes</h1>
+               </div>
+          </div>
+     </div>
+     <div class="footer">
+          <div class="line second"></div>
+          <footer class="content">
+               <p>© 2024 Enyene Rudolf. All rights reserved.</p>
+               <div class="icons">
+                    <a target="_blank" href="https://www.linkedin.com/in/enyene-rudolf"><img class="icon"
+                              src="images/linkedin-brands-solid.svg" alt=""></a>
+                    <a target="_blank" href="https://x.com/Enyene_"><img class="icon"
+                              src="images/x-twitter-brands-solid.svg" alt=""></i></a>
+                    <a target="_blank" href="https://github.com/enyeneraph"><img class="icon"
+                              src="images/github-brands-solid.svg" alt=""></a>
+               </div>
+          </footer>
+     </div>
+     <script src="blog.js"></script>
+     <script src="posts/posts.js"></script>
 </body>
+
 </html>
