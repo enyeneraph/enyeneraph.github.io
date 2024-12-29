@@ -132,7 +132,7 @@ header+.line {
 }
 
 .second {
-     animation-delay: 2.5s;
+     animation-delay: 2s;
 }
 
 @-webkit-keyframes line-gradient {
