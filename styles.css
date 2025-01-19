@@ -35,7 +35,7 @@ td {
 }
 
 a:hover {
-     text-decoration: underline !important;
+     text-decoration: underline;
 }
 
 h1,
@@ -90,7 +90,7 @@ a {
 
 .line {
      width: 100%;
-     min-height: 3px;
+     min-height: 2px;
      background-color: white;
      margin: 60px 0;
 }
@@ -120,19 +120,6 @@ header+.line {
 
 .arrow-right {
      margin-left: 10px;
-}
-
-.line {
-     background: linear-gradient(270deg, white, black, white);
-     background-size: 600% 600%;
-
-     -webkit-animation: line-gradient 20 s linear infinite;
-     -moz-animation: line-gradient 20s linear infinite;
-     animation: line-gradient 20s linear infinite;
-}
-
-.second {
-     animation-delay: 2s;
 }
 
 @-webkit-keyframes line-gradient {
@@ -205,6 +192,16 @@ header p {
      width: 75%;
 }
 
+.nav a {
+     border: solid white 2px;
+     border-radius: 1000px;
+     padding: 10px 15px;
+}
+
+.nav a:hover {
+     text-decoration: none;
+}
+
 .nav,
 .back {
      text-align: right;
@@ -247,6 +244,7 @@ header p {
      width: 100%;
      height: 100%;
      border-radius: 100%;
+     border: solid 2px white;
 }
 
 .image+div {
@@ -305,7 +303,6 @@ header p {
 
 #next:hover,
 #previous:hover,
-.nav:hover,
 .back:hover,
 .blog a:hover {
      text-decoration: underline !important;
@@ -313,12 +310,21 @@ header p {
 
 .icons {
      display: flex;
-     width: 100px;
+     width: 150px;
      justify-content: space-between;
 }
 
 .icon {
      width: 20px;
+}
+
+.icons a {
+     border: solid white 2px;
+     border-radius: 100%;
+     padding: 10px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
 }
 
 .footer,
@@ -379,7 +385,7 @@ footer p {
      .site-title {
           font-size: 40px;
      }
-     
+
      .image+div p {
           width: 100%;
           text-align: left;
