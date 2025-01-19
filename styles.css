@@ -310,7 +310,7 @@ header p {
 
 .icons {
      display: flex;
-     width: 150px;
+     width: 180px;
      justify-content: space-between;
 }
 
@@ -319,6 +319,8 @@ header p {
 }
 
 .icons a {
+     width: 30px;
+     height: 30px;
      border: solid white 2px;
      border-radius: 100%;
      padding: 10px;
